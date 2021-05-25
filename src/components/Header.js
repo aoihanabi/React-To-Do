@@ -1,7 +1,7 @@
 import React from "react";
 
-const Header = function(){
-    return <h1>Click the button!</h1>
+const Header = function(props){
+    return <h1>{props.text}</h1>
 }
 
 export default Header;

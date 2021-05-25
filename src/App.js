@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "components/Header";
-import Header from "components/Button";
+import Header from "./components/Header";
+import Button from "./components/Button";
 
 //React function component example
 // const App = () => {
@@ -14,8 +14,8 @@ class App extends React.Component //the inheritance is what makes it a react cla
     render() {
         return (
         <>  
-            <Header />
-            <Button />
+            <Header text="Prop Text Here" />
+            <Button label="Hey button" />
         </>);
     }
 }
