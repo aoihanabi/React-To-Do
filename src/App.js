@@ -1,7 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
+// import Header from "./components/Header";
 // import Button from "./components/Button";
-import Counter from "./components/Counter";
+
+// import Counter from "./components/Counter";
+
+import Form from "./components/Form";
 
 //React function component example
 // const App = () => {
@@ -15,9 +18,11 @@ class App extends React.Component //the inheritance is what makes it a react cla
     render() {
         return (
         <>  
-            <Header text="Prop Text Here" />
+            {/* <Header text="Prop Text Here" /> */}
             {/* <Button label="Hey button" /> */}
-            <Counter />
+            {/* <Counter /> */}
+
+            <Form />
         </>);
     }
 }
