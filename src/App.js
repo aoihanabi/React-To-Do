@@ -2,11 +2,11 @@ import React from "react";
 // import Header from "./components/Header";
 // import Button from "./components/Button";
 
-// import Counter from "./components/Counter";
+// import Counter from "./components/CounterSec1Cap16";
 
 // import Form from "./components/Form";
 
-// import CounterFunctional from "./components/CounterFunctional";
+// import ClicksCounterFunctional from "./components/CounterSec1Cap20";
 // import UseEffectHook from "./components/UseEffectHook";
 import Seconds from "./components/CounterSec1Cap22";
 

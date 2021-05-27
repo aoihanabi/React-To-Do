@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const CounterFunctional = () => {
+const ClicksCounterFunctional = () => {
     const [clicks, setClicks] = useState(0);
 
     function handleButtonClick() {
@@ -15,4 +15,4 @@ const CounterFunctional = () => {
     );
 };
 
-export default CounterFunctional;
+export default ClicksCounterFunctional;
