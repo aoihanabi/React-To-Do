@@ -4,7 +4,9 @@ import React from "react";
 
 // import Counter from "./components/Counter";
 
-import Form from "./components/Form";
+// import Form from "./components/Form";
+
+import CounterFunctional from "./components/CounterFunctional";
 
 //React function component example
 // const App = () => {
@@ -22,7 +24,9 @@ class App extends React.Component //the inheritance is what makes it a react cla
             {/* <Button label="Hey button" /> */}
             {/* <Counter /> */}
 
-            <Form />
+            {/* <Form /> */}
+
+            <CounterFunctional />
         </>);
     }
 }
