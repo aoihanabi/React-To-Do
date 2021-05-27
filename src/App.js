@@ -7,7 +7,8 @@ import React from "react";
 // import Form from "./components/Form";
 
 // import CounterFunctional from "./components/CounterFunctional";
-import UseEffectHook from "./components/UseEffectHook";
+// import UseEffectHook from "./components/UseEffectHook";
+import Seconds from "./components/CounterSec1Cap22";
 
 //React function component example
 // const App = () => {
@@ -28,7 +29,8 @@ class App extends React.Component //the inheritance is what makes it a react cla
             {/* <Form /> */}
 
             {/* <CounterFunctional /> */}
-            <UseEffectHook />
+            {/* <UseEffectHook /> */}
+            <Seconds />
         </>);
     }
 }
